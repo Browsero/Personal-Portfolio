@@ -9,18 +9,20 @@ export default function About() {
     "React",
     "Firebase",
     "Next.js",
+    'Tailwind',
+    'Ruby'
   ];
   return (
-    <main className="max-w-xs mx-auto md:max-w-5xl mb-16">
+    <main className="max-w-xs mx-auto sm:max-w-lg md:max-w-3xl lg:max-w-5xl mb-16">
       <div className="bg-white shadow-2xl border border-gray-200 md:flex rounded-t-lg">
         <div className="rounded-tl-lg">
           <img
-            className="w-full object-cover rounded-tl-lg md:h-full"
+            className="w-full object-cover rounded-t-lg md:rounded-none md:rounded-tl-lg md:h-full"
             src="https://images.unsplash.com/photo-1488161628813-04466f872be2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=800"
             alr="img"
           />
         </div>
-        <div className="flex flex-col space-y-4 p-4 md:p-8 md:pt-40 md:pb-40 w-4/5">
+        <div className="flex flex-col space-y-4 p-4 md:p-8 md:pt-40 md:pb-40 md:w-4/5">
           <div>
             <h1 className="font-medium text-3xl text-slate-800 md:text-4xl">
               About me
@@ -41,29 +43,15 @@ export default function About() {
               enim ad minim veniam.
             </p>
           </div>
-          <div className="flex space-x-4">
-            <ul className="flex flex-col space-y-2">
-              {techStack.map((item, index) => {
-                if (index % 2 === 0) {
-                  return (
-                    <li className="flex items-center space-x-2">
-                      <AiOutlineRight />
-                      <p className="text-slate-600">{item}</p>
-                    </li>
-                  );
-                }
-              })}
-            </ul>
-            <ul className="flex flex-col space-y-2">
-              {techStack.map((item, index) => {
-                if (index % 2 !== 0) {
-                  return (
-                    <li className="flex items-center space-x-2">
-                      <AiOutlineRight />
-                      <p className="text-slate-600">{item}</p>
-                    </li>
-                  );
-                }
+          <div>
+            <ul className="grid grid-cols-2 gap-4">
+              {techStack.map((item) => {
+                return (
+                  <li className="flex items-center space-x-2">
+                    <AiOutlineRight />
+                    <p className="text-slate-600">{item}</p>
+                  </li>
+                );
               })}
             </ul>
           </div>
