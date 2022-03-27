@@ -8,7 +8,7 @@ import {
   AiFillGithub,
   AiOutlineClose,
 } from "react-icons/ai";
-import { SiTiktok } from "react-icons/si";
+import { SiDevdotto } from "react-icons/si";
 import { HiOutlineBookOpen } from "react-icons/hi";
 import { BiLinkExternal } from "react-icons/bi";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -30,7 +30,7 @@ export default function Navbar() {
               <AiOutlineLinkedin className="text-gray-700 cursor-pointer" />
             </li>
             <li>
-              <SiTiktok className="text-gray-700 cursor-pointer" />
+              <SiDevdotto className="text-gray-700 cursor-pointer" />
             </li>
             <li>
               <AiFillGithub className="text-gray-700 cursor-pointer" />
