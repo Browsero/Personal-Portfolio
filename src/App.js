@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import About from "./components/About";
+import Projects from "./components/Projects";
 
 export default function App() {
   AOS.init({ once: true, duration: 400 });
@@ -13,6 +14,7 @@ export default function App() {
       <Navbar />
       <Header />
       <About />
+      <Projects />
     </>
   );
 }
