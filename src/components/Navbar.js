@@ -17,23 +17,23 @@ export default function Navbar() {
   const [menuClicked, setMenuClicked] = useState(false);
   return (
     <>
-      <nav className="shadow-lg max-w-sm mx-auto rounded-lg border border-gray-200 mt-8 flex justify-around sm:max-w-xl md:border-0 md:shadow-none md:max-w-none md:rounded-none md:mt-4">
+      <nav className="shadow-lg max-w-sm mx-auto rounded-lg border bg-white border-gray-200 mt-8 flex justify-around sm:max-w-xl md:border-0 md:shadow-none md:max-w-none md:rounded-none md:mt-4">
         <div className="hidden md:flex space-x-4 text-2xl">
           <ul className="flex space-x-8">
             <li>
-              <AiOutlineTwitter className="text-gray-700 cursor-pointer" />
+              <AiOutlineTwitter className="text-gray-700 cursor-pointer transition md:hover:scale-110" />
             </li>
             <li>
-              <AiOutlineInstagram className="text-gray-700 cursor-pointer" />
+              <AiOutlineInstagram className="text-gray-700 cursor-pointer transition md:hover:scale-110" />
             </li>
             <li>
-              <AiOutlineLinkedin className="text-gray-700 cursor-pointer" />
+              <AiOutlineLinkedin className="text-gray-700 cursor-pointer transition md:hover:scale-110" />
             </li>
             <li>
-              <SiDevdotto className="text-gray-700 cursor-pointer" />
+              <SiDevdotto className="text-gray-700 cursor-pointer transition md:hover:scale-110" />
             </li>
             <li>
-              <AiFillGithub className="text-gray-700 cursor-pointer" />
+              <AiFillGithub className="text-gray-700 cursor-pointer transition md:hover:scale-110" />
             </li>
           </ul>
         </div>

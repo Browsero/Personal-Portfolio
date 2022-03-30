@@ -3,9 +3,10 @@ import React from "react";
 export default function ProjectItem(props) {
   return (
     <div
-      className={`max-w-sm mx-auto relative border-gray-500 border-2 shadow-lg mb-24 md:max-w-4xl md:flex md:border-0 md:shadow-none ${
+      className={`max-w-sm mx-auto relative border-gray-500 border-2 shadow-lg mb-36 md:max-w-4xl md:flex md:border-0 md:shadow-none ${
         props.id % 2 !== 0 && "md:flex-row-reverse"
       }`}
+      data-aos="zoom-in-up"
     >
       <img className="h-80 w-full object-cover" alt="img" src={props.img} />
       <div
