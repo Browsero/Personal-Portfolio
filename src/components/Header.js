@@ -5,7 +5,7 @@ export default function Header() {
   const age = year - 2002;
   return (
     <>
-      <header className="mt-8 mb-80 py-16 mx-auto md:mt-48 md:pb-96 lg:mt-32 lg:pb-64">
+      <header className="mt-8 mb-80 py-16 mx-auto md:mt-48 md:pb-96 lg:mt-32 lg:pb-32 xl:mt-44">
         <div className="mx-auto flex flex-col justify-center items-center text-center space-y-2 max-w-sm sm:max-w-2xl md:max-w-4xl lg:max-w-7xl xl:max-w-9xl">
           <div>
             <h2 className="font-medium text-lg sm:text-xl md:text-2xl text-gray-600">

@@ -13,7 +13,7 @@ export default function About() {
     'Ruby'
   ];
   return (
-    <main className="max-w-xs mx-auto sm:max-w-lg md:max-w-3xl lg:max-w-5xl mb-16">
+    <main className="max-w-xs mx-auto sm:max-w-lg md:max-w-3xl lg:max-w-5xl mb-16 lg:pt-32">
       <div className="bg-white shadow-2xl border border-gray-200 md:flex rounded-t-lg">
         <div className="rounded-tl-lg">
           <img
@@ -22,7 +22,7 @@ export default function About() {
             alr="img"
           />
         </div>
-        <div className="flex flex-col space-y-4 p-4 md:p-8 md:pt-40 md:pb-40 md:w-4/5">
+        <div className="flex flex-col space-y-4 p-4 md:p-8 md:pt-40 md:pb-40 md:w-4/5 xl:p-8 xl:pt-24 xl:pb-10">
           <div>
             <h1 className="font-medium text-3xl text-slate-800 md:text-4xl">
               About me
