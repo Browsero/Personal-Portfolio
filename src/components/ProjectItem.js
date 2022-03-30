@@ -9,7 +9,7 @@ export default function ProjectItem(props) {
     >
       <img className="h-80 w-full object-cover" alt="img" src={props.img} />
       <div
-        className={`z-10 absolute top-0 bg-neutral-300 bg-opacity-90 w-full h-full p-5 flex flex-col space-y-4 md:bg-transparent md:static ${
+        className={`z-10 absolute top-0 bg-neutral-300 bg-opacity-90 w-full h-full p-5 flex flex-col space-y-4 md:h-80 md:bg-transparent md:static ${
           props.id % 2 !== 0 ? "md:items-end" : "md:items-start"
         }`}
       >
@@ -23,11 +23,11 @@ export default function ProjectItem(props) {
         <div
           className={`${
             props.id % 2 !== 0 ? "md:text-left" : "md:text-right"
-          } md:max-w-md md:shadow-lg md:border-gray-700 md:p-4`}
+          } md:shadow-lg md:border-gray-700 md:p-4 md:z-12 md:relativ md:bg-white`}
         >
           <p>{props.description}</p>
         </div>
-        <div>
+        <div className="md:w-full">
           <ul className="grid grid-cols-4 text-lg text-gray-500 md:flex md:space-x-4">
             {props.techstack.map((item) => {
               return (
