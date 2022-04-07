@@ -3,7 +3,7 @@ import ProjectItem from "./ProjectItem";
 
 export default function Projects() {
   return (
-    <section className="pt-64 pb-16">
+    <section id="projects" className="pt-64 pb-16">
       <div className="text-5xl font-bold mx-auto max-w-sm mb-12 md:mb-32 md:max-w-none md:text-center">
         <h1>My work and Projects</h1>
       </div>

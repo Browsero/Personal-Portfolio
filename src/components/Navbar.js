@@ -47,14 +47,14 @@ export default function Navbar() {
             </li>
             <li className="flex flex-col items-center">
               <HiOutlineBookOpen className="text-4xl md:hidden" />
-              <a className="text-gray-700 font-medium" href="#">
+              <a className="text-gray-700 font-medium" href="./#projects">
                 Work
               </a>
             </li>
             <li className="flex flex-col items-center">
               <BiLinkExternal className="text-4xl md:hidden" />
-              <a className=" text-gray-700 font-medium" href="#">
-                Links
+              <a className=" text-gray-700 font-medium" href="#contact">
+                Contact
               </a>
             </li>
             <li className="flex flex-col items-center">

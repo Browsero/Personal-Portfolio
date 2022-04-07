@@ -13,7 +13,7 @@ export default function About() {
     'Ruby'
   ];
   return (
-    <main className="max-w-xs mx-auto sm:max-w-lg md:max-w-3xl lg:max-w-5xl mb-16">
+    <section id="about" className="max-w-xs mx-auto sm:max-w-lg md:max-w-3xl lg:max-w-5xl mb-16">
       <div className="bg-white shadow-2xl border border-gray-200 md:flex rounded-t-lg">
         <div className="rounded-tl-lg">
           <img
@@ -57,6 +57,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </main>
+    </section>
   );
 }

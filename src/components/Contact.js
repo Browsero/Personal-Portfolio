@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <section className="max-w-sm mx-auto mb-36 md:max-w-xl">
+    <section id="contact" className="max-w-sm mx-auto mb-36 md:max-w-xl">
       <div className="p-4 text-center flex flex-col space-y-4">
         <div>
           <h1 className="font-bold text-4xl md:text-6xl">Get In Touch</h1>

@@ -13,7 +13,7 @@ export default function Header() {
             </h2>
           </div>
           <div>
-            <h1 className="text-4xl font-bold sm:text-5xl md:text-6xl xl:text-8xl">
+            <h1 className="text-4xl font-bold sm:text-5xl md:text-6xl xl:text-7xl">
               I'm a computer science student and begginer Web Developer.
             </h1>
           </div>
