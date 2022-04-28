@@ -26,7 +26,7 @@ export default function Header() {
           </div>
           <div>
             <button className="text-white bg-gray-800 flex flex-wrap p-4 mt-8 transition delay-150 md:hover:scale-110 duration-300">
-              Check out my projects!
+              <a href="./#projects">Check out my projects!</a>
             </button>
           </div>
         </div>

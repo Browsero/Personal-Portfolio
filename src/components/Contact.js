@@ -9,13 +9,17 @@ export default function Contact() {
         </div>
         <div>
           <p className="text-md text-gray-600 md:text-xl">
-            Although I’m not currently looking for any new opportunities, my
-            inbox is always open. Whether you have a question or just want to
-            say hi, I’ll try my best to get back to you!
+            If you have some questions, job offers or suggestions to my
+            portfolio you can use the button below to contact me!
           </p>
         </div>
         <div>
-          <button className="border border-gray-700 p-2 w-48 transition rounded-lg duration-300 ease-in-out hover:scale-110 hover:bg-slate-700 hover:text-white">Say Hello</button>
+          <a
+            className="border border-gray-700 p-2 w-48 transition rounded-lg duration-300 ease-in-out hover:scale-110 hover:bg-slate-700 hover:text-white"
+            href="mailto:hubertmadej02@protonmail.com?subject=[Q] Your Question Subject"
+          >
+            Say Hello
+          </a>
         </div>
       </div>
     </section>

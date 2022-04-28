@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import {
   AiOutlineHome,
   AiOutlineTwitter,
-  AiOutlineInstagram,
   AiOutlineLinkedin,
   AiFillGithub,
   AiOutlineClose,
@@ -21,19 +20,24 @@ export default function Navbar() {
         <div className="hidden md:flex space-x-4 text-2xl">
           <ul className="flex space-x-8">
             <li>
-              <AiOutlineTwitter className="text-gray-700 cursor-pointer transition md:hover:scale-110" />
+              <a href="https://twitter.com/HubertMadej01">
+                <AiOutlineTwitter className="text-gray-700 cursor-pointer transition md:hover:scale-110" />
+              </a>
             </li>
             <li>
-              <AiOutlineInstagram className="text-gray-700 cursor-pointer transition md:hover:scale-110" />
+              <a href="https://www.linkedin.com/in/hubert-madej-774801227/">
+                <AiOutlineLinkedin className="text-gray-700 cursor-pointer transition md:hover:scale-110" />
+              </a>
             </li>
             <li>
-              <AiOutlineLinkedin className="text-gray-700 cursor-pointer transition md:hover:scale-110" />
+              <a href="https://dev.to/browser">
+                <SiDevdotto className="text-gray-700 cursor-pointer transition md:hover:scale-110" />
+              </a>
             </li>
             <li>
-              <SiDevdotto className="text-gray-700 cursor-pointer transition md:hover:scale-110" />
-            </li>
-            <li>
-              <AiFillGithub className="text-gray-700 cursor-pointer transition md:hover:scale-110" />
+              <a href="https://github.com/Browsero">
+                <AiFillGithub className="text-gray-700 cursor-pointer transition md:hover:scale-110" />
+              </a>
             </li>
           </ul>
         </div>
@@ -41,7 +45,7 @@ export default function Navbar() {
           <ul className="flex flex-row space-x-8">
             <li className="flex flex-col items-center">
               <AiOutlineHome className="text-4xl md:hidden" />
-              <a className=" text-gray-700 font-medium" href="#">
+              <a className=" text-gray-700 font-medium" href="./#header">
                 Home
               </a>
             </li>
@@ -53,7 +57,7 @@ export default function Navbar() {
             </li>
             <li className="flex flex-col items-center">
               <BiLinkExternal className="text-4xl md:hidden" />
-              <a className=" text-gray-700 font-medium" href="#contact">
+              <a className=" text-gray-700 font-medium" href="./#contact">
                 Contact
               </a>
             </li>
@@ -88,13 +92,29 @@ export default function Navbar() {
         >
           <ul className="p-4">
             <li>
-              <a className="font-medium" href="#">
-                Work
+              <a
+                className="font-medium"
+                href="https://twitter.com/HubertMadej01"
+              >
+                Twitter
               </a>
             </li>
             <li>
-              <a className="font-medium" href="#">
-                Contact
+              <a
+                className="font-medium"
+                href="https://www.linkedin.com/in/hubert-madej-774801227/"
+              >
+                Linkedin
+              </a>
+            </li>
+            <li>
+              <a className="font-medium" href="https://dev.to/browser">
+                Dev.to
+              </a>
+            </li>
+            <li>
+              <a className="font-medium" href="https://github.com/Browsero">
+                Github
               </a>
             </li>
           </ul>

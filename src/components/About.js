@@ -5,15 +5,18 @@ export default function About() {
   const techStack = [
     "JavaScript",
     "Github",
-    "Three.js",
+    "HTML/CSS",
     "React",
     "Firebase",
-    "Next.js",
-    'Tailwind',
-    'Ruby'
+    "SCSS",
+    "Tailwind",
+    "NODE.JS",
   ];
   return (
-    <section id="about" className="max-w-xs mx-auto sm:max-w-lg md:max-w-3xl lg:max-w-5xl mb-16">
+    <section
+      id="about"
+      className="max-w-xs mx-auto sm:max-w-lg md:max-w-3xl lg:max-w-5xl mb-16"
+    >
       <div className="bg-white shadow-2xl border border-gray-200 md:flex rounded-t-lg">
         <div className="rounded-tl-lg">
           <img
@@ -30,17 +33,18 @@ export default function About() {
           </div>
           <div>
             <p className="text-slate-500">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              I am a first-year student of the Silesian University of Technology
+              in the field of Computer Science. I have widely developed
+              communication skills. I communicate fluently in English. I
+              associate my professional future with programming, so I would like
+              to gain my first experience in the IT industry as a Junior
+              Frontend Developer.
             </p>
           </div>
           <div>
             <p className="text-slate-500">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam.
+              In most of time I develop my web programming skills, but I'm also trying to learn Java as a backend technology.
+              
             </p>
           </div>
           <div>
