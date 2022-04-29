@@ -12,8 +12,8 @@ export default function Projects() {
         title="Spotify Wrapped"
         url="https://spotify-wrapped.vercel.app/"
         img={process.env.PUBLIC_URL + "/slide-1.png"}
-        description="Simple web application based on spotify API. After login via Spotify, user can see top artists and tracks. User is able to filter favourtie tracks and artists
-        by time. There theree time spans avaible: Month, 6 months and all time. Mockup designed by rawpixel.com"
+        description="Simple web application based on spotify API. After login via Spotify, user is able to see top artists and tracks. User can filter favourite tracks and artists
+        by time. There are three time spans available: Month, 6 months and all time. Mockup designed by rawpixel.com"
         techstack={[
           "React",
           "SpotifyAPI",
