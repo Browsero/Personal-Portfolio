@@ -5,12 +5,12 @@ import "./About.css";
 export default function About() {
   const techStack = [
     "JavaScript",
-    "Github",
+    "GIT",
     "HTML/CSS",
     "React",
     "Firebase",
     "SCSS",
-    "Tailwind",
+    "Tailwind CSS",
     "NODE.JS",
   ];
   return (
