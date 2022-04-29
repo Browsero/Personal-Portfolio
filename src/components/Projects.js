@@ -9,23 +9,18 @@ export default function Projects() {
       </div>
       <ProjectItem
         id={1}
-        title="Netflix"
-        img="https://images.unsplash.com/photo-1512070679279-8988d32161be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=738&q=80"
-        description=" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat."
-        techstack={["React", "Ruby", "Tailwind", "Firebase", "Figma", "Vercel"]}
-      />
-      <ProjectItem
-        id={2}
-        title="Uber"
-        img="https://images.unsplash.com/photo-1554672408-758865e7274a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-        description=" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat."
-        techstack={["React", "Ruby", "Tailwind", "Firebase", "Figma", "Vercel"]}
+        title="Spotify Wrapped"
+        url="https://spotify-wrapped.vercel.app/"
+        img={process.env.PUBLIC_URL + "/slide-1.png"}
+        description="Simple web application based on spotify API. After login via Spotify, user can see top artists and tracks. User is able to filter favourtie tracks and artists
+        by time. There theree time spans avaible: Month, 6 months and all time. Mockup designed by rawpixel.com"
+        techstack={[
+          "React",
+          "SpotifyAPI",
+          "Node.Js",
+          "Figma",
+          "Vercel",
+        ]}
       />
     </section>
   );

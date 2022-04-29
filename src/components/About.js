@@ -1,5 +1,6 @@
 import React from "react";
 import { AiOutlineRight } from "react-icons/ai";
+import "./About.css";
 
 export default function About() {
   const techStack = [
@@ -13,6 +14,7 @@ export default function About() {
     "NODE.JS",
   ];
   return (
+    
     <section
       id="about"
       className="max-w-xs mx-auto sm:max-w-lg md:max-w-3xl lg:max-w-5xl mb-16"
@@ -27,7 +29,7 @@ export default function About() {
         </div>
         <div className="flex flex-col space-y-4 p-4 md:p-8 md:pt-40 md:pb-40 md:w-4/5 xl:p-8 xl:pt-24 xl:pb-10">
           <div>
-            <h1 className="font-medium text-3xl text-slate-800 md:text-4xl">
+            <h1 className="link link-underline link-underline-black font-medium max-w-fit text-3xl text-slate-800 md:text-4xl">
               About me
             </h1>
           </div>
@@ -43,8 +45,8 @@ export default function About() {
           </div>
           <div>
             <p className="text-slate-500">
-              In most of time I develop my web programming skills, but I'm also trying to learn Java as a backend technology.
-              
+              To widen my programming skills I'm learning Angular to develop more scalable web applications and Java for better backend experience.
+    
             </p>
           </div>
           <div>

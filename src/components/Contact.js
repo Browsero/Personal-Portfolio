@@ -13,7 +13,7 @@ export default function Contact() {
             portfolio you can use the button below to contact me!
           </p>
         </div>
-        <div>
+        <div className="flex flex-1 justify-center ">
           <a
             className="border border-gray-700 p-2 w-48 transition rounded-lg duration-300 ease-in-out hover:scale-110 hover:bg-slate-700 hover:text-white"
             href="mailto:hubertmadej02@protonmail.com?subject=[Q] Your Question Subject"
