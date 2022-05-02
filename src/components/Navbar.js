@@ -16,7 +16,7 @@ export default function Navbar() {
   const [menuClicked, setMenuClicked] = useState(false);
   return (
     <>
-      <div className="fixed w-full top-0 z-10 pl-2 pr-2 md:static">
+      <div className="fixed w-full top-0 z-10 pl-2 pr-2 md:static ">
         <nav className="shadow-lg mx-auto rounded-lg border bg-white border-gray-200 mt-8 flex justify-around sm:max-w-xl md:border-0 md:shadow-none md:max-w-none md:rounded-none md:mt-4">
           <div className="hidden md:flex space-x-4 text-2xl">
             <ul className="flex space-x-8">
