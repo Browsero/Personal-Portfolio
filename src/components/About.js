@@ -1,6 +1,7 @@
 import React from "react";
 import { AiOutlineRight } from "react-icons/ai";
 import "./About.css";
+import { v4 as uuidv4 } from "uuid";
 
 export default function About() {
   const techStack = [
@@ -25,6 +26,7 @@ export default function About() {
             className="w-full object-cover rounded-t-lg md:rounded-none md:rounded-tl-lg md:h-full md:w-96"
             src={process.env.PUBLIC_URL + '/about.jpg'}
             alr="img"
+            alt="about"
           />
         </div>
         <div className="flex flex-col space-y-4 p-4 md:p-8 md:pt-40 md:pb-40 md:w-4/5 xl:p-8 xl:pt-24 xl:pb-10">
@@ -53,7 +55,7 @@ export default function About() {
             <ul className="grid grid-cols-2 gap-4">
               {techStack.map((item) => {
                 return (
-                  <li className="flex items-center space-x-2">
+                  <li key={uuidv4()} className="flex items-center space-x-2">
                     <AiOutlineRight />
                     <p className="text-slate-600">{item}</p>
                   </li>

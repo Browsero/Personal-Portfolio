@@ -1,6 +1,6 @@
 import React from "react";
 import { AiOutlineLink } from "react-icons/ai";
-import { v4 as uuidv4 } from 'uuid';
+import { v4 as uuidv4 } from "uuid";
 
 export default function ProjectItem(props) {
   return (
@@ -10,7 +10,10 @@ export default function ProjectItem(props) {
       }`}
       data-aos="zoom-in-up"
     >
-      <img className="h-80 w-full object-cover" alt="img" src={props.img} />
+      <div
+        className="h-80 w-full bg-cover"
+        style={{backgroundImage: `url(${props.img})`}}
+      ></div>
       <div
         className={`z-10 absolute top-0 bg-neutral-300 bg-opacity-90 w-full h-full p-5 flex flex-col space-y-4 md:max-w-md md:h-80 md:bg-transparent md:static ${
           props.id % 2 !== 0 ? "md:items-end" : "md:items-start"
