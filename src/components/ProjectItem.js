@@ -33,8 +33,8 @@ export default function ProjectItem(props) {
         >
           <p>{props.description}</p>
         </div>
-        <div className="md:w-full">
-          <ul className="grid grid-cols-3 text-lg text-gray-500 md:flex md:space-x-4">
+        <div className=" md:w-full">
+          <ul className="flex flex-wrap gap-3 text-zinc-400">
             {props.techstack.map((item) => {
               return (
                 <li key={uuidv4()}>
